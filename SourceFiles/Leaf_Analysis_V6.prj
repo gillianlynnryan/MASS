@@ -1,0 +1,129 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\TSC\Google Drive (chua0563@kettering.edu)\REU\TeeCResearch\LeafMorphology\Tee\Leaf_Analysis_V6.prj" location="C:\Users\TSC\Google Drive (chua0563@kettering.edu)\REU\TeeCResearch\LeafMorphology\Tee" name="Leaf_Analysis_V6" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>MASS</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>T. Chuanromanee</param.authnamewatermark>
+    <param.email>chua0563@kettering.edu</param.email>
+    <param.company />
+    <param.summary>Summary</param.summary>
+    <param.description>Description</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\MASS\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Leaf_Analysis_V6\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Leaf_Analysis_V6\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Leaf_Analysis_V6\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Leaf_Analysis_V6</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.company />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\LeafAnalysis_GUI.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\elliptic_fourier</file>
+      <file>${PROJECT_ROOT}\RemoveWhiteSpace</file>
+      <file>${PROJECT_ROOT}\shape</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\CalcAxis.m</file>
+      <file>${PROJECT_ROOT}\chaincode.m</file>
+      <file>${PROJECT_ROOT}\compute_harmonic_power.m</file>
+      <file>${PROJECT_ROOT}\efd_setup.m</file>
+      <file>${PROJECT_ROOT}\Eigenvectors.m</file>
+      <file>${PROJECT_ROOT}\export_coefficients.m</file>
+      <file>${PROJECT_ROOT}\export_outline.m</file>
+      <file>${PROJECT_ROOT}\ImageSelect.m</file>
+      <file>${PROJECT_ROOT}\landmarks.m</file>
+      <file>${PROJECT_ROOT}\Leaf_Analysis_V6_GUI.m</file>
+      <file>${PROJECT_ROOT}\line_angle.m</file>
+      <file>${PROJECT_ROOT}\normalize_outline.m</file>
+      <file>${PROJECT_ROOT}\pca_analysis.m</file>
+      <file>${PROJECT_ROOT}\pixel_to_cm.m</file>
+      <file>${PROJECT_ROOT}\pixel_to_cm_GUI.m</file>
+      <file>${PROJECT_ROOT}\procrustes_analysis.m</file>
+      <file>${PROJECT_ROOT}\superimpose_outlines.m</file>
+      <file>${PROJECT_ROOT}\symmetry.m</file>
+      <file>${PROJECT_ROOT}\visualizeLandmarks.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Leaf_Analysis_V6\for_testing" name="readme.txt" optional="true">C:\Users\TSC\Google Drive (chua0563@kettering.edu)\REU\TeeCResearch\LeafMorphology\Tee\Leaf_Analysis_V6\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Leaf_Analysis_V6\for_testing" name="MASS.exe" optional="false">C:\Users\TSC\Google Drive (chua0563@kettering.edu)\REU\TeeCResearch\LeafMorphology\Tee\Leaf_Analysis_V6\for_testing\MASS.exe</file>
+      <file location="${PROJECT_ROOT}\Leaf_Analysis_V6\for_testing" name="splash.png" optional="false">C:\Users\TSC\Google Drive (chua0563@kettering.edu)\REU\TeeCResearch\LeafMorphology\Tee\Leaf_Analysis_V6\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
