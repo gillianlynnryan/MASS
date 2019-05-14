@@ -1,6 +1,6 @@
 # MASS
 
-This site hosts all source files and executables required for utilizing MASS, a shape analysis tool for images described in Chuanromanee et al (submitted, 2019).This tool has been developed to facilitate user-friendly morphological analysis of leaves, but may be extended to other samples as well. User Instructions for installation and use are provided in the file MASSUserGuidelines.pdf
+This site hosts all source files and executables required for utilizing MASS, a shape analysis tool for images described in Chuanromanee et al (submitted, 2019).This tool has been developed to facilitate user-friendly morphological analysis of leaves, but may be extended to other samples as well. User instructions for installation and use are provided in the file MASSUserGuidelines.pdf
 
 All MATLAB source files are available in the folder SourceFiles.
 
