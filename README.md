@@ -10,3 +10,4 @@ A sample image and resultant basic analysis files are available under the folder
 
 Chuanromanee Tya S., Cohen, James I., and Ryan, Gillian L. "Morphological Analysis of Size and Shape (MASS): An integrative software program for morphometric analyses of leaves," 2019. Applications in Plant Sciences. https://doi.org/10.1002/aps3.11288
 
+Note: 10/6/2019 The MASSInstaller release was updated to correct issues with library paths that arose on machines that do not already have MATLAB installed.
