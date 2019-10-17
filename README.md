@@ -4,10 +4,13 @@ This site hosts all source files and executables required for utilizing MASS, a 
 
 All MATLAB source files are available in the folder SourceFiles.
 
-The installer MASSInstaller.exe (tested and verified on Windows machines) is available under releases.
+The installer MASSInstaller.exe (tested and verified on Windows machines) is available under releases. Please note that the executable will write data files to the local directory, thus the MASS.exe (on Windows) must be located in a folder where the user has write priveleges.
 
 A sample image and resultant basic analysis files are available under the folder SampleFiles.
 
+
+
 Chuanromanee Tya S., Cohen, James I., and Ryan, Gillian L. "Morphological Analysis of Size and Shape (MASS): An integrative software program for morphometric analyses of leaves," 2019. Applications in Plant Sciences. https://doi.org/10.1002/aps3.11288
 
-Note: 10/6/2019 The MASSInstaller release was updated to correct issues with library paths that arose on machines that do not already have MATLAB installed.
+
+
